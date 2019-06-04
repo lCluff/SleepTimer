@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1656BEED2281E41F0064D03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656BEEC2281E41F0064D03D /* AppDelegate.swift */; };
+		1656BEF22281E41F0064D03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1656BEF02281E41F0064D03D /* Main.storyboard */; };
+		1656BEF42281E4200064D03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1656BEF32281E4200064D03D /* Assets.xcassets */; };
+		1656BEF72281E4200064D03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1656BEF52281E4200064D03D /* LaunchScreen.storyboard */; };
+		1656BF022281E4200064D03D /* SleepTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656BF012281E4200064D03D /* SleepTimerTests.swift */; };
+		1656BF0D2281E4200064D03D /* SleepTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656BF0C2281E4200064D03D /* SleepTimerUITests.swift */; };
+		1656BF1C2281E60F0064D03D /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656BF1B2281E60F0064D03D /* MyTimer.swift */; };
+		1656BF202281F0130064D03D /* PowerNapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656BF1F2281F0130064D03D /* PowerNapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1656BEFE2281E4200064D03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1656BEE12281E41F0064D03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1656BEE82281E41F0064D03D;
+			remoteInfo = SleepTimer;
+		};
+		1656BF092281E4200064D03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1656BEE12281E41F0064D03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1656BEE82281E41F0064D03D;
+			remoteInfo = SleepTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1656BEE92281E41F0064D03D /* SleepTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1656BEEC2281E41F0064D03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1656BEF12281E41F0064D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1656BEF32281E4200064D03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1656BEF62281E4200064D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1656BEF82281E4200064D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1656BEFD2281E4200064D03D /* SleepTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1656BF012281E4200064D03D /* SleepTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTimerTests.swift; sourceTree = "<group>"; };
+		1656BF032281E4200064D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1656BF082281E4200064D03D /* SleepTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1656BF0C2281E4200064D03D /* SleepTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTimerUITests.swift; sourceTree = "<group>"; };
+		1656BF0E2281E4200064D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1656BF1B2281E60F0064D03D /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		1656BF1F2281F0130064D03D /* PowerNapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerNapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1656BEE62281E41F0064D03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1656BEFA2281E4200064D03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1656BF052281E4200064D03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1656BEE02281E41F0064D03D = {
+			isa = PBXGroup;
+			children = (
+				1656BEEB2281E41F0064D03D /* SleepTimer */,
+				1656BF002281E4200064D03D /* SleepTimerTests */,
+				1656BF0B2281E4200064D03D /* SleepTimerUITests */,
+				1656BEEA2281E41F0064D03D /* Products */,
+				1656BF1A2281E4310064D03D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		1656BEEA2281E41F0064D03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1656BEE92281E41F0064D03D /* SleepTimer.app */,
+				1656BEFD2281E4200064D03D /* SleepTimerTests.xctest */,
+				1656BF082281E4200064D03D /* SleepTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1656BEEB2281E41F0064D03D /* SleepTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1656BEF02281E41F0064D03D /* Main.storyboard */,
+				1656BF1F2281F0130064D03D /* PowerNapViewController.swift */,
+				1656BF1B2281E60F0064D03D /* MyTimer.swift */,
+			);
+			path = SleepTimer;
+			sourceTree = "<group>";
+		};
+		1656BF002281E4200064D03D /* SleepTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1656BF012281E4200064D03D /* SleepTimerTests.swift */,
+				1656BF032281E4200064D03D /* Info.plist */,
+			);
+			path = SleepTimerTests;
+			sourceTree = "<group>";
+		};
+		1656BF0B2281E4200064D03D /* SleepTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1656BF0C2281E4200064D03D /* SleepTimerUITests.swift */,
+				1656BF0E2281E4200064D03D /* Info.plist */,
+			);
+			path = SleepTimerUITests;
+			sourceTree = "<group>";
+		};
+		1656BF1A2281E4310064D03D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1656BEEC2281E41F0064D03D /* AppDelegate.swift */,
+				1656BEF32281E4200064D03D /* Assets.xcassets */,
+				1656BEF52281E4200064D03D /* LaunchScreen.storyboard */,
+				1656BEF82281E4200064D03D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1656BEE82281E41F0064D03D /* SleepTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1656BF112281E4200064D03D /* Build configuration list for PBXNativeTarget "SleepTimer" */;
+			buildPhases = (
+				1656BEE52281E41F0064D03D /* Sources */,
+				1656BEE62281E41F0064D03D /* Frameworks */,
+				1656BEE72281E41F0064D03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTimer;
+			productName = SleepTimer;
+			productReference = 1656BEE92281E41F0064D03D /* SleepTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1656BEFC2281E4200064D03D /* SleepTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1656BF142281E4200064D03D /* Build configuration list for PBXNativeTarget "SleepTimerTests" */;
+			buildPhases = (
+				1656BEF92281E4200064D03D /* Sources */,
+				1656BEFA2281E4200064D03D /* Frameworks */,
+				1656BEFB2281E4200064D03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1656BEFF2281E4200064D03D /* PBXTargetDependency */,
+			);
+			name = SleepTimerTests;
+			productName = SleepTimerTests;
+			productReference = 1656BEFD2281E4200064D03D /* SleepTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1656BF072281E4200064D03D /* SleepTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1656BF172281E4200064D03D /* Build configuration list for PBXNativeTarget "SleepTimerUITests" */;
+			buildPhases = (
+				1656BF042281E4200064D03D /* Sources */,
+				1656BF052281E4200064D03D /* Frameworks */,
+				1656BF062281E4200064D03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1656BF0A2281E4200064D03D /* PBXTargetDependency */,
+			);
+			name = SleepTimerUITests;
+			productName = SleepTimerUITests;
+			productReference = 1656BF082281E4200064D03D /* SleepTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1656BEE12281E41F0064D03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Leah Cluff";
+				TargetAttributes = {
+					1656BEE82281E41F0064D03D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1656BEFC2281E4200064D03D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1656BEE82281E41F0064D03D;
+					};
+					1656BF072281E4200064D03D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1656BEE82281E41F0064D03D;
+					};
+				};
+			};
+			buildConfigurationList = 1656BEE42281E41F0064D03D /* Build configuration list for PBXProject "SleepTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1656BEE02281E41F0064D03D;
+			productRefGroup = 1656BEEA2281E41F0064D03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1656BEE82281E41F0064D03D /* SleepTimer */,
+				1656BEFC2281E4200064D03D /* SleepTimerTests */,
+				1656BF072281E4200064D03D /* SleepTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1656BEE72281E41F0064D03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1656BEF72281E4200064D03D /* LaunchScreen.storyboard in Resources */,
+				1656BEF42281E4200064D03D /* Assets.xcassets in Resources */,
+				1656BEF22281E41F0064D03D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1656BEFB2281E4200064D03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1656BF062281E4200064D03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1656BEE52281E41F0064D03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1656BF202281F0130064D03D /* PowerNapViewController.swift in Sources */,
+				1656BEED2281E41F0064D03D /* AppDelegate.swift in Sources */,
+				1656BF1C2281E60F0064D03D /* MyTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1656BEF92281E4200064D03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1656BF022281E4200064D03D /* SleepTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1656BF042281E4200064D03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1656BF0D2281E4200064D03D /* SleepTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1656BEFF2281E4200064D03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1656BEE82281E41F0064D03D /* SleepTimer */;
+			targetProxy = 1656BEFE2281E4200064D03D /* PBXContainerItemProxy */;
+		};
+		1656BF0A2281E4200064D03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1656BEE82281E41F0064D03D /* SleepTimer */;
+			targetProxy = 1656BF092281E4200064D03D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1656BEF02281E41F0064D03D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1656BEF12281E41F0064D03D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1656BEF52281E4200064D03D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1656BEF62281E4200064D03D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1656BF0F2281E4200064D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1656BF102281E4200064D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1656BF122281E4200064D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leah-Cluff.SleepTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1656BF132281E4200064D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leah-Cluff.SleepTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1656BF152281E4200064D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SleepTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leah-Cluff.SleepTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepTimer.app/SleepTimer";
+			};
+			name = Debug;
+		};
+		1656BF162281E4200064D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SleepTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leah-Cluff.SleepTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepTimer.app/SleepTimer";
+			};
+			name = Release;
+		};
+		1656BF182281E4200064D03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SleepTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leah-Cluff.SleepTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepTimer;
+			};
+			name = Debug;
+		};
+		1656BF192281E4200064D03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SleepTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leah-Cluff.SleepTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1656BEE42281E41F0064D03D /* Build configuration list for PBXProject "SleepTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1656BF0F2281E4200064D03D /* Debug */,
+				1656BF102281E4200064D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1656BF112281E4200064D03D /* Build configuration list for PBXNativeTarget "SleepTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1656BF122281E4200064D03D /* Debug */,
+				1656BF132281E4200064D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1656BF142281E4200064D03D /* Build configuration list for PBXNativeTarget "SleepTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1656BF152281E4200064D03D /* Debug */,
+				1656BF162281E4200064D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1656BF172281E4200064D03D /* Build configuration list for PBXNativeTarget "SleepTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1656BF182281E4200064D03D /* Debug */,
+				1656BF192281E4200064D03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1656BEE12281E41F0064D03D /* Project object */;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Power Nap View Controller-->
+        <scene sceneID="XCb-cf-GcS">
+            <objects>
+                <viewController id="gbG-Qq-1tP" customClass="PowerNapViewController" customModule="SleepTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RKi-bA-zaf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzK-Ne-4iK">
+                                <rect key="frame" x="148" y="421.5" width="118" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jli-xL-pkj">
+                                <rect key="frame" x="182" y="719" width="50" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="toggleTimerButtonTapped:" destination="gbG-Qq-1tP" eventType="touchUpInside" id="i9Q-yM-xXf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jli-xL-pkj" firstAttribute="centerX" secondItem="wzK-Ne-4iK" secondAttribute="centerX" id="9No-wF-sbS"/>
+                            <constraint firstItem="wzK-Ne-4iK" firstAttribute="centerX" secondItem="RKi-bA-zaf" secondAttribute="centerX" id="kYe-no-Slk"/>
+                            <constraint firstItem="wzK-Ne-4iK" firstAttribute="centerY" secondItem="RKi-bA-zaf" secondAttribute="centerY" id="m4k-jZ-hdM"/>
+                            <constraint firstItem="cOD-C4-cCU" firstAttribute="bottom" secondItem="Jli-xL-pkj" secondAttribute="bottom" constant="102" id="xe9-9D-fLi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cOD-C4-cCU"/>
+                    </view>
+                    <connections>
+                        <outlet property="timeRemainingLabel" destination="wzK-Ne-4iK" id="lTm-AG-JGs"/>
+                        <outlet property="toggleTimerButton" destination="Jli-xL-pkj" id="iCt-d7-SbI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHZ-sD-ORm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="163.39285714285714"/>
+        </scene>
+    </scenes>
+</document>
